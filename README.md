@@ -53,7 +53,6 @@ This approach opens possibilities for building personalized bots that can manage
 <br />
 <br />
      copy and paste this to the following 3 files in this project to replace the empty ones that are in the files by default:
-
        <ul>a. PersonalChatbot/src/chat/chat_bot.py</ul>
        <ul>b. PersonalChatbot/src/data_preprocessing/load_whatsapp.py</ul>
        <ul>c. PersonalChatbot/src/training/fine_tuning_model.py</ul>
