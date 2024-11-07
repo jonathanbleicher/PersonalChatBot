@@ -36,6 +36,7 @@
 # Background
 This project is designed to create a personalized WhatsApp chatbot that mimics the user’s tone and communication style. By fine-tuning a Hebrew-optimized model on personal chat data, 
 we developed a chatbot capable of replicating conversational nuances, such as tone, word choice, and even emoji usage. Below, we detail the methods used, including LoRA and QLoRA.
+![image info](images/image1.jpg)
 
 ## Base Model and Architecture
 The project uses the Mistral-7B model, a large language model built on the Transformer architecture and optimized for Hebrew. Mistral-7B includes 32 Transformer layers, each with advanced mechanisms for memory management and sequence handling, 
