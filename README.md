@@ -36,12 +36,12 @@
 # Background
 This project is designed to create a personalized WhatsApp chatbot that mimics the user’s tone and communication style. By fine-tuning a Hebrew-optimized model on personal chat data, 
 we developed a chatbot capable of replicating conversational nuances, such as tone, word choice, and even emoji usage. Below, we detail the methods used, including LoRA and QLoRA.
-![image info](images/image1.jpg)
 
 ## Base Model and Architecture
 The project uses the Mistral-7B model, a large language model built on the Transformer architecture and optimized for Hebrew. Mistral-7B includes 32 Transformer layers, each with advanced mechanisms for memory management and sequence handling, 
 making it well-suited for personalized conversational applications. This model’s complex architecture enables it to manage context and nuance across longer conversations, which is crucial for producing a chatbot that "sounds" like the user.
-
+<br />
+![image info](images/image1.jpg)
 ## Data Preprocessing
 To train the model on WhatsApp conversations, we first extracted chat data, removing irrelevant content like links, images, and voice memos. A Python script then structured the cleaned data into a template, 
 marking conversational turns to help the model learn interaction dynamics. This setup helped the chatbot understand individual speaking styles and respond in a personalized manner.
@@ -50,7 +50,10 @@ marking conversational turns to help the model learn interaction dynamics. This 
 LoRA is a technique for fine-tuning large language models efficiently by reducing the number of trainable parameters. It does this by adding low-rank matrices to the model’s weight matrices during training, 
 allowing the model to learn task-specific patterns with significantly fewer resources. For our chatbot, LoRA reduced the number of parameters needed for training to around 1.13% of the original model size, 
 making fine-tuning possible on limited hardware without compromising quality.
-
+<br />
+![image info](images/image2.jpg)
+<br />
+![image info](images/image3.jpg)
 ## QLoRA (Quantized Low-Rank Adaptation)
 QLoRA is an extension of LoRA that further optimizes resource usage through quantization. Quantization lowers the precision of the model’s weights, which reduces memory requirements and speeds up processing. 
 In this project, we used 4-bit quantization, reducing the memory footprint substantially while still retaining the model’s conversational accuracy. 
