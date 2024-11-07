@@ -43,13 +43,13 @@ This approach opens possibilities for building personalized bots that can manage
      and the chosen path to where you want to save the final model:<br />
 <br />
 <br />
-###################################################<br />
-################## Fill This In ########################<br />
-base_model_id = "yam-peleg/Hebrew-Mistral-7B"<br />
-path_to_data = "full/path/to/PersonalChatbot/src/data_prepocessing/final_outputs/formatted_data.jsonl"<br />
-saved_model_path = "path/to/save/model"<br />
-###################################################<br />
-###################################################<br />
+      ###################################################<br />
+      ################## Fill This In ########################<br />
+      base_model_id = "yam-peleg/Hebrew-Mistral-7B"<br />
+      path_to_data = "full/path/to/PersonalChatbot/src/data_prepocessing/final_outputs/formatted_data.jsonl"<br />
+      saved_model_path = "path/to/save/model"<br />
+      ###################################################<br />
+      ###################################################<br />
 <br />
 <br />
      copy and paste this to the following 3 files in this project to replace the empty ones that are in the files by default:
