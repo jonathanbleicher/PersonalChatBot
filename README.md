@@ -45,9 +45,9 @@ This approach opens possibilities for building personalized bots that can manage
 <br />
       ###################################################<br />
       ################## Fill This In ########################<br />
-      ```base_model_id = "yam-peleg/Hebrew-Mistral-7B"<br />
+      '''base_model_id = "yam-peleg/Hebrew-Mistral-7B"<br />
       path_to_data = "full/path/to/PersonalChatbot/src/data_prepocessing/final_outputs/formatted_data.jsonl"<br />
-      saved_model_path = "path/to/save/model"```<br />
+      saved_model_path = "path/to/save/model"'''<br />
       ###################################################<br />
       ###################################################<br />
 <br />
