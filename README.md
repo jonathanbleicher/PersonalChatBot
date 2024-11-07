@@ -45,17 +45,21 @@ This approach opens possibilities for building personalized bots that can manage
 <br />
       ###################################################<br />
       ################## Fill This In ########################<br />
-      '''base_model_id = "yam-peleg/Hebrew-Mistral-7B"<br />
+      '''
+      base_model_id = "yam-peleg/Hebrew-Mistral-7B"<br />
       path_to_data = "full/path/to/PersonalChatbot/src/data_prepocessing/final_outputs/formatted_data.jsonl"<br />
-      saved_model_path = "path/to/save/model"'''<br />
+      saved_model_path = "path/to/save/model"<br />
+      '''
       ###################################################<br />
       ###################################################<br />
 <br />
 <br />
      copy and paste this to the following 3 files in this project to replace the empty ones that are in the files by default:
+     '''
        <ul>a. PersonalChatbot/src/chat/chat_bot.py</ul>
        <ul>b. PersonalChatbot/src/data_preprocessing/load_whatsapp.py</ul>
        <ul>c. PersonalChatbot/src/training/fine_tuning_model.py</ul>
+     '''
   6. Change directory to PersonalChatbot/src/data_processing and run: python3 preprocess_start.sh
      <ul>Your processed data should appear in a final_outputs folder and should be called formatted_data.jsonl</ul>
   7. Change directory to PersonalChatbot/src/training
